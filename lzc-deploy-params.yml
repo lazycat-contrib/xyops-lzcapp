@@ -1,0 +1,13 @@
+params:
+  - id: tz
+    type: string
+    name: "timezone"
+    description: "Timezone for the application (e.g. Asia/Shanghai, America/New_York)"
+    default_value: "Asia/Shanghai"
+    placeholder: "Asia/Shanghai"
+
+locales:
+  zh:
+    tz:
+      name: "时区"
+      description: "应用的时区设置（例如 Asia/Shanghai、America/New_York）"

@@ -1,0 +1,11 @@
+manifest: ./lzc-manifest.yml
+pkgout: ./
+icon: ./icon.png
+
+# compose_override - Docker socket 和 init 进程支持
+compose_override:
+  services:
+    xyops:
+      init: true
+      volumes:
+        - /data/playground/docker.sock:/var/run/docker.sock
