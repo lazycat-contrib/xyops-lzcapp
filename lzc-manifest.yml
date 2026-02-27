@@ -25,7 +25,7 @@ services:
       - TZ={{.U.tz}}
       - XYOPS_xysat_local=true
       - XYOPS_satellite__config__host=${LAZYCAT_APP_DOMAIN}
-      - XYOPS_satellite__config__secure=false
+      - XYOPS_satellite__config__secure=true
     binds:
       - /lzcapp/var/data:/opt/xyops/data
       - /lzcapp/var/conf:/opt/xyops/conf
