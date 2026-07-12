@@ -1,5 +1,5 @@
 package: community.lazycat.app.xyops
-version: 1.0.9
+version: 1.0.81
 name: xyOps
 description: "A complete workflow automation and server monitoring system"
 min_os_version: 1.5.0

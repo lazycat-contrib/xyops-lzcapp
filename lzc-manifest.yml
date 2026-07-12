@@ -5,11 +5,11 @@ application:
   upstreams:
     - location: /
       backend: http://xyops:5522/
-
 services:
   xyops:
     # ghcr.io/pixlcore/xyops:v1.0.9
-    image: registry.lazycat.cloud/czyt/pixlcore/xyops:7be72e1e7854af68
+    # upstream: ghcr.io/pixlcore/xyops:v1.0.81
+    image: registry.lazycat.cloud/czyt/pixlcore/xyops:f532602aec4b7d8c
     environment:
       - TZ={{.U.tz}}
       - XYOPS_xysat_local=true
