@@ -23,8 +23,7 @@ images:
       mode: lazycat
 stores:
   official:
-    enabled: true
-    skip_if_version_exists: true
+    enabled: false
   private:
     enabled: true
     skip_if_version_exists: true
