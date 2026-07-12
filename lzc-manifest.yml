@@ -10,8 +10,6 @@ services:
   xyops:
     # ghcr.io/pixlcore/xyops:v1.0.9
     image: registry.lazycat.cloud/czyt/pixlcore/xyops:7be72e1e7854af68
-    container_name: xyops
-    hostname: xyops
     environment:
       - TZ={{.U.tz}}
       - XYOPS_xysat_local=true
