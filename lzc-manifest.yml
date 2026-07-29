@@ -8,8 +8,8 @@ application:
 services:
   xyops:
     # ghcr.io/pixlcore/xyops:v1.0.9
-    # upstream: ghcr.io/pixlcore/xyops:v1.0.85
-    image: registry.lazycat.cloud/czyt/pixlcore/xyops:7708fe09e0f13d57
+    # upstream: ghcr.io/pixlcore/xyops:v1.0.86
+    image: registry.lazycat.cloud/czyt/pixlcore/xyops:28f5a52dd0d1f54d
     environment:
       - TZ={{.U.tz}}
       - XYOPS_xysat_local=true
